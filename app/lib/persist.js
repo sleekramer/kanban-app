@@ -9,5 +9,5 @@ export default function (alt, storage, storageName) {
     if(!storage.get('debug')) {
       storage.set(storageName, alt.takeSnapshot());
     }
-  })
+  });
 }
